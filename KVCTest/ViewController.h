@@ -7,7 +7,13 @@
 //
 
 #import <UIKit/UIKit.h>
-
+@class ModelObject;
 @interface ViewController : UIViewController
+
+- (IBAction)swizzleMethod:(id)sender;
+- (IBAction)outputSwizzler:(id)sender;
+- (IBAction)crashMe:(id)sender;
+- (IBAction)kvo:(id)sender;
+- (IBAction)kvc:(id)sender;
 
 @end

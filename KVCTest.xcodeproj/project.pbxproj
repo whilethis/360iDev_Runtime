@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CA0D4DF6141EB8C7008CE61B /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA0D4DF5141EB8C7008CE61B /* QuartzCore.framework */; };
 		CA25E732141D328400455D53 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA25E731141D328400455D53 /* UIKit.framework */; };
 		CA25E734141D328400455D53 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA25E733141D328400455D53 /* Foundation.framework */; };
 		CA25E736141D328400455D53 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA25E735141D328400455D53 /* CoreGraphics.framework */; };
@@ -15,22 +16,29 @@
 		CA25E742141D328400455D53 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CA25E741141D328400455D53 /* AppDelegate.m */; };
 		CA25E745141D328400455D53 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CA25E744141D328400455D53 /* ViewController.m */; };
 		CA25E748141D328400455D53 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CA25E746141D328400455D53 /* ViewController.xib */; };
+		CA25E750141D32A800455D53 /* ModelObject.m in Sources */ = {isa = PBXBuildFile; fileRef = CA25E74F141D32A800455D53 /* ModelObject.m */; };
+		CA25E753141D44C200455D53 /* SwizzleClass.m in Sources */ = {isa = PBXBuildFile; fileRef = CA25E752141D44C200455D53 /* SwizzleClass.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CA0D4DF5141EB8C7008CE61B /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		CA25E72D141D328400455D53 /* KVCTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KVCTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CA25E731141D328400455D53 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		CA25E733141D328400455D53 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		CA25E735141D328400455D53 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		CA25E739141D328400455D53 /* KVCTest-Info.plist */ = {isa = PBXFileReference; path = "KVCTest-Info.plist"; sourceTree = "<group>"; };
+		CA25E739141D328400455D53 /* KVCTest-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "KVCTest-Info.plist"; sourceTree = "<group>"; };
 		CA25E73B141D328400455D53 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		CA25E73D141D328400455D53 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		CA25E73F141D328400455D53 /* KVCTest-Prefix.pch */ = {isa = PBXFileReference; path = "KVCTest-Prefix.pch"; sourceTree = "<group>"; };
-		CA25E740141D328400455D53 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		CA25E73F141D328400455D53 /* KVCTest-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "KVCTest-Prefix.pch"; sourceTree = "<group>"; };
+		CA25E740141D328400455D53 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		CA25E741141D328400455D53 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		CA25E743141D328400455D53 /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
+		CA25E743141D328400455D53 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		CA25E744141D328400455D53 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		CA25E747141D328400455D53 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		CA25E74E141D32A800455D53 /* ModelObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ModelObject.h; sourceTree = "<group>"; };
+		CA25E74F141D32A800455D53 /* ModelObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ModelObject.m; sourceTree = "<group>"; };
+		CA25E751141D44C200455D53 /* SwizzleClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SwizzleClass.h; sourceTree = "<group>"; };
+		CA25E752141D44C200455D53 /* SwizzleClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SwizzleClass.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +46,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CA0D4DF6141EB8C7008CE61B /* QuartzCore.framework in Frameworks */,
 				CA25E732141D328400455D53 /* UIKit.framework in Frameworks */,
 				CA25E734141D328400455D53 /* Foundation.framework in Frameworks */,
 				CA25E736141D328400455D53 /* CoreGraphics.framework in Frameworks */,
@@ -50,6 +59,7 @@
 		CA25E722141D328400455D53 = {
 			isa = PBXGroup;
 			children = (
+				CA0D4DF5141EB8C7008CE61B /* QuartzCore.framework */,
 				CA25E737141D328400455D53 /* KVCTest */,
 				CA25E730141D328400455D53 /* Frameworks */,
 				CA25E72E141D328400455D53 /* Products */,
@@ -81,6 +91,10 @@
 				CA25E741141D328400455D53 /* AppDelegate.m */,
 				CA25E743141D328400455D53 /* ViewController.h */,
 				CA25E744141D328400455D53 /* ViewController.m */,
+				CA25E751141D44C200455D53 /* SwizzleClass.h */,
+				CA25E752141D44C200455D53 /* SwizzleClass.m */,
+				CA25E74E141D32A800455D53 /* ModelObject.h */,
+				CA25E74F141D32A800455D53 /* ModelObject.m */,
 				CA25E746141D328400455D53 /* ViewController.xib */,
 				CA25E738141D328400455D53 /* Supporting Files */,
 			);
@@ -164,6 +178,8 @@
 				CA25E73E141D328400455D53 /* main.m in Sources */,
 				CA25E742141D328400455D53 /* AppDelegate.m in Sources */,
 				CA25E745141D328400455D53 /* ViewController.m in Sources */,
+				CA25E750141D32A800455D53 /* ModelObject.m in Sources */,
+				CA25E753141D44C200455D53 /* SwizzleClass.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -209,7 +225,7 @@
 				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
@@ -227,7 +243,7 @@
 				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -275,6 +291,7 @@
 				CA25E74D141D328400455D53 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
